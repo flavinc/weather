@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('sea-with-boats-distance-cloudy-sky.jpg'); /* Path to your image */
-    background-size: cover; /* Adjusts image to cover the entire background */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents image repetition */
+   background-image: url('sea-with-boats-distance-cloudy-sky.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .card {
