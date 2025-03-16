@@ -82,11 +82,11 @@ async function checkWeather(city) {
         const weatherCondition = data.weather[0].main.toLowerCase();
         const iconMap = {
             "clear": "/clear.png",
-            "clouds": "clouds.png",
-            "rain": "rain.png",
-            "drizzle": "drizzle.png",
-            "mist": "mist.png",
-            "snow": "snow.png"
+            "clouds": "/clouds.png",
+            "rain": "/rain.png",
+            "drizzle": "/drizzle.png",
+            "mist": "/mist.png",
+            "snow": "/snow.png"
         };
 
         weatherIcon.src = iconMap[weatherCondition] || "other.png";
